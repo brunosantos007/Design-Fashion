@@ -1,0 +1,125 @@
+@charset "UTF-8";  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+@media(max-width :1200px){
+    .tamanho{
+        width: 70%;
+    }
+}
+:root{
+    --cor0:#474073;
+    --cor1:#4F4D8C;
+    --cor2:#8F8EBF;
+    --cor3:#2E4159;
+    --cor4:#262626;
+}
+header{
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 20px;
+    
+}
+body{
+    background-image: linear-gradient(to bottom, #2e4159e3,#4F4D8C);
+    margin: auto;
+    font-size: 22px;
+}
+.titulo{
+    background-image: linear-gradient(to right, #2e4159ee,white);
+   padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 5px 5px 8px black;
+    text-align: justify;
+    
+}
+#fashion{
+    color: var(--cor3);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 0px 1px 1px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius:0px 0px 10px 10px  ;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-bottom: 50px;
+   
+}
+
+#imgd{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+p{
+    padding: 10px;
+}
+
+#diferente{
+    background-color: var(--cor2);
+    width: 50%;
+    padding-bottom:20px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+#diferente ul{
+    margin-left: 20px;
+    padding: 10px;
+   
+}
+#diferente ul li{
+    padding: 15px;
+    text-align: justify;
+   
+}
+#centro-distribuicao{
+    text-align: center;
+}
+
+
+#familia-pelho{
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+#cabecalho{
+    text-align: center;
+    background-color: var(--cor3);
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+   
+}
+#cabecalho img{
+    width: 70px;
+}
+
+
+
+
+
+
+
+
